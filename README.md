@@ -35,19 +35,19 @@
   <tr>
     <td width="50%" valign="top">
       <ul>
-        <li>📅 <b>Calendar:</b> Vistas rápidas para notas diarias[cite: 7].</li>
-        <li>🗄️ <b>Dataview:</b> Consultas y vistas de datos complejas[cite: 7].</li>
-        <li>📋 <b>Kanban:</b> Tableros visuales para tareas en Markdown[cite: 7].</li>
-        <li>🔘 <b>Meta Bind:</b> Notas interactivas con botones y campos ocultos[cite: 7].</li>
-        <li>🗃️ <b>Note Database:</b> Vistas de bases de datos avanzadas (tablas, galerías, etc.)[cite: 7].</li>
+        <li>📅 <b>Calendar:</b> Vistas rápidas para notas diarias.</li>
+        <li>🗄️ <b>Dataview:</b> Consultas y vistas de datos complejas.</li>
+        <li>📋 <b>Kanban:</b> Tableros visuales para tareas en Markdown.</li>
+        <li>🔘 <b>Meta Bind:</b> Notas interactivas con botones y campos ocultos.</li>
+        <li>🗃️ <b>Note Database:</b> Vistas de bases de datos avanzadas (tablas, galerías, etc.).</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <ul>
-        <li>🔍 <b>Omnisearch:</b> Motor de búsqueda inteligente ultra rápido[cite: 7].</li>
-        <li>📄 <b>PDF++:</b> Herramienta avanzada para gestión y anotación nativa de PDFs[cite: 7].</li>
-        <li>📊 <b>Sheet Plus:</b> Hojas de cálculo tipo Excel incrustadas en las notas[cite: 7].</li>
-        <li>⚙️ <b>Templater:</b> Plantillas con sintaxis de programación para automatización[cite: 7].</li>
+        <li>🔍 <b>Omnisearch:</b> Motor de búsqueda inteligente ultra rápido.</li>
+        <li>📄 <b>PDF++:</b> Herramienta avanzada para gestión y anotación nativa de PDFs.</li>
+        <li>📊 <b>Sheet Plus:</b> Hojas de cálculo tipo Excel incrustadas en las notas.</li>
+        <li>⚙️ <b>Templater:</b> Plantillas con sintaxis de programación para automatización.</li>
       </ul>
     </td>
   </tr>
