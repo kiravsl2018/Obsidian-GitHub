@@ -1,21 +1,38 @@
-<!-- Cabecera morada -->
+<!-- Cabecera dinámica combinando el morado de Obsidian y gris oscuro -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:483699,100:8b5cf6&height=180&section=header&text=Apuntes%20DAW&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Bóveda%20de%20Obsidian&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7A36CB,100:1E1E1E&height=180&section=header&text=Apuntes%20DAW&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Bóveda%20de%20Obsidian&descAlignY=55&descAlign=50" />
 </div>
-
-<h1 align="center">📚 Apuntes DAW - Miguel</h1>
-
-<p align="center">
-  Mi <b>Segundo Cerebro</b>. Aquí guardo todos mis esquemas, documentación y fragmentos de código del ciclo superior.
-</p>
-
-<p align="center">
-  <i>Gestionado nativamente desde <b>Obsidian</b> con Dataview y Meta Bind.<br>Estética optimizada para el tema Primary oscuro.</i>
-</p>
 
 <br>
 
-<h3 align="center">💻 Lenguajes del curso</h3>
+<!-- Animación de terminal súper limpia -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A882FF&center=true&vCenter=true&width=550&lines=Mi+Segundo+Cerebro;Esquemas,+código+y+documentación;Grado+Superior+DAW;Todo+estructurado+en+Markdown" alt="Typing SVG" />
+  </a>
+</div>
+
+<br>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="40%" align="center" valign="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/2023_Obsidian_logo.svg" alt="Obsidian Logo" width="130" />
+    </td>
+    <td width="60%" valign="center">
+      <h3 align="center">💎 El Ecosistema</h3>
+      <ul>
+        <li>🧠 <b>Enfoque:</b> Notas conectadas para un acceso rápido.</li>
+        <li>⚙️ <b>Motores:</b> Automatización con <i>Dataview</i> y <i>Meta Bind</i>.</li>
+        <li>🌙 <b>Entorno:</b> Optimizado sobre el <b>tema oscuro nativo</b>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<h3 align="center">💻 Stack del Curso</h3>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -23,10 +40,11 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:483699&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1E1E,100:7A36CB&height=100&section=footer" />
 </div>
