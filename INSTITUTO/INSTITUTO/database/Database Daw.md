@@ -34,16 +34,16 @@ database:
           color: green
         - value: examen
           color: blue
-        - value: plantilla
-          color: purple
         - value: practica
           color: pink
-        - value: practica-home
+        - value: actividades-home
           color: red
         - value: temario
           color: lime
-        - value: tema-home
+        - value: temario-home
           color: teal
+        - value: plantilla
+          color: purple
     - key: Asignatura
       label: Asignatura
       type: text
@@ -82,10 +82,10 @@ database:
       sortRules: []
       columnOrder:
         - file.name
-        - tags
         - Asignatura
-        - Prioridad
+        - tags
         - Tema
+        - Prioridad
         - To-Do
         - Nota
       columnWidths:
@@ -96,26 +96,31 @@ database:
       groupByField: tags
       groupOrders:
         tags:
-          - Calendario
           - Tasks
+          - examen
+          - practica
           - actividad
+          - temario
+          - temario-home
+          - actividades-home
           - asignatura
           - dawhome
-          - plantilla
-          - practica-home
-          - temario
-          - tema-home
+          - Calendario
           - csv
           - DB
+          - guia
+          - horario
+          - plantilla
       showEmptyGroups: {}
       collapsedGroups:
         tags:
-          - Calendario
           - csv
           - DB
           - dawhome
+          - Calendario
           - asignatura
-          - plantilla
+          - guia
+          - horario
       boardGroupField: ""
       boardSubgroupEnabled: false
       boardSubgroupField: ""
@@ -204,6 +209,17 @@ database:
           INSTITUTO/Plantillas/Plantilla DAW.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
           INSTITUTO/Asignaturas/DAW1/ENTORNO/Presentación Actividades - Entorno/Tema0_Act1_MLC.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
           INSTITUTO/Asignaturas/DAW1/BADAT/Presentación Actividades - BADAT/Actividad 1.2 BADAT.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Plantillas/Plantilla Práctica.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Plantillas/Plantilla Examen.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Plantillas/Plantilla Teoría.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Plantillas/Plantilla Dia.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Plantillas/Plantilla Actividad.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Horario.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Guía de uso.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Asignaturas/DAW1/PROGRAMACIÓN/Presentación Actividades - Programación/guía java .md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Asignaturas/DAW1/BADAT/EXAMENES-BADAT/EXAMEN GRAFOS.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Asignaturas/DAW1/PROGRAMACIÓN/EXAMENES PROGRAMACIÓN/EXAMEN PROGRAMACIÓN.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+          INSTITUTO/Asignaturas/DAW1/BADAT/EXAMENES-BADAT/PROYECTO GOOGLE-AWS.md: xPpQVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
       galleryImageField: ""
       galleryImageAspectRatio: 0.75
       galleryCardSize: 250
@@ -216,7 +232,10 @@ database:
       statusPresets: []
       defaultStatusPresetId: ""
       filterLogic: and
-      filters: []
+      filters:
+        - field: tags
+          op: neq
+          value: plantilla
       summaryRules: []
       conditionalFormats: []
       chartType: bar
@@ -269,6 +288,10 @@ database:
       viewStates:
         table:
           groupByField: tags
+          filters:
+            - field: tags
+              op: neq
+              value: plantilla
 tags:
   - DB
 ---

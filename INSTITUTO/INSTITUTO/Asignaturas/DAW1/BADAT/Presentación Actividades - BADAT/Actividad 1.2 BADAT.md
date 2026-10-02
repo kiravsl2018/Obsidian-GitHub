@@ -5,7 +5,10 @@ author: Miguel López
 date: 2026-09-25
 subject: Grado Superior DAW
 tags:
-  - plantilla
+  - actividad
+Asignatura: Base de Datos
+Tema:
+  - Introducción
 ---
 
 <br><br><br>
