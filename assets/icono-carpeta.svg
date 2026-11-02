@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Carpeta">
+  <circle cx="60" cy="60" r="56" fill="#3b82f6" fill-opacity=".14"><animate attributeName="r" values="52;56;52" dur="4.5s" repeatCount="indefinite"/></circle>
+  <path d="M22 36 Q22 30 28 30 H50 L58 38 H92 Q98 38 98 44 V86 Q98 92 92 92 H28 Q22 92 22 86 Z" fill="#3b82f6"/>
+  <path d="M22 48 H98 V86 Q98 92 92 92 H28 Q22 92 22 86 Z" fill="#60a5fa"/>
+  <g fill="#0d1117" fill-opacity=".45"><rect x="34" y="58" width="40" height="4" rx="2"/><rect x="34" y="68" width="52" height="4" rx="2"/><rect x="34" y="78" width="30" height="4" rx="2"/></g>
+</svg>

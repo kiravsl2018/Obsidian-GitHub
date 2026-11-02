@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7A36CB,100:1E1E1E&height=200&section=header&text=Apuntes%20DAW&fontSize=56&fontAlignY=36&animation=fadeIn&fontColor=ffffff&desc=B%C3%B3veda%20de%20Obsidian&descAlignY=58&descSize=20" alt="Apuntes DAW - Bóveda de Obsidian" width="100%" />
+  <img src="assets/header.svg" alt="Apuntes DAW - Bóveda de Obsidian" width="100%" />
 </div>
 
 <br>
@@ -32,7 +32,7 @@
   <a href="#-stack-del-curso">Stack del curso</a>
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 💎 El ecosistema
 
@@ -55,19 +55,31 @@
 > [!NOTE]
 > Esta bóveda es mi segundo cerebro durante el Grado Superior en DAW: esquemas, fragmentos de código y documentación de cada módulo.
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 📦 Qué hay en este repositorio
 
-| Elemento | Qué es | Para qué sirve |
-|---|---|---|
-| 🗜 **`Insti-backup.zip`** | La bóveda **completa**, plug and play: notas, adjuntos y la carpeta `.obsidian` con los 9 plugins, sus ajustes y los fragmentos CSS. | Descargar, descomprimir y abrir. Queda exactamente igual que en mi ordenador. |
-| 📁 **`Insti/`** | Las mismas notas y capturas, sueltas. | Leer los apuntes directamente desde GitHub, sin descargar nada. |
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/icono-zip.svg" width="96" alt="" />
+      <h3>🗜 <code>Insti-backup.zip</code></h3>
+      <p><b>Qué es:</b> la bóveda <b>completa</b>, plug and play: notas, adjuntos y la carpeta <code>.obsidian</code> con los 9 plugins, sus ajustes y los fragmentos CSS.</p>
+      <p><b>Para qué sirve:</b> descargar, descomprimir y abrir. Queda exactamente igual que en mi ordenador.</p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/icono-carpeta.svg" width="96" alt="" />
+      <h3>📁 <code>Insti/</code></h3>
+      <p><b>Qué es:</b> las mismas notas y capturas, sueltas.</p>
+      <p><b>Para qué sirve:</b> leer los apuntes directamente desde GitHub, sin descargar nada.</p>
+    </td>
+  </tr>
+</table>
 
 > [!TIP]
 > Cada vez que avanzo en el temario subo un `.zip` actualizado, así que el `.zip` es siempre la versión más reciente y completa de la bóveda.
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🗂 Estructura de la bóveda
 
@@ -93,16 +105,10 @@ Insti/                        ← la carpeta que se abre como bóveda
 
 Cada asignatura tiene su propio color, que se repite en el panel, en el horario y en las tarjetas de tareas:
 
-<div align="center">
-  <img src="https://img.shields.io/badge/BADAT-00e5ff?style=for-the-badge" alt="BADAT" />
-  <img src="https://img.shields.io/badge/PROGRAMACIÓN-7c4dff?style=for-the-badge" alt="PROGRAMACIÓN" />
-  <img src="https://img.shields.io/badge/SISTEMAS-f2994a?style=for-the-badge" alt="SISTEMAS" />
-  <img src="https://img.shields.io/badge/ENTORNO-a3e635?style=for-the-badge" alt="ENTORNO" />
-  <img src="https://img.shields.io/badge/LENGUAJE-ff6fb5?style=for-the-badge" alt="LENGUAJE" />
-  <img src="https://img.shields.io/badge/DIGITALIZACIÓN-4f9dff?style=for-the-badge" alt="DIGITALIZACIÓN" />
-  <img src="https://img.shields.io/badge/SOSTENIBILIDAD-34d399?style=for-the-badge" alt="SOSTENIBILIDAD" />
-  <img src="https://img.shields.io/badge/IPE-fbbf24?style=for-the-badge" alt="IPE" />
-</div>
+<img src="assets/asignaturas.svg" width="100%" alt="BADAT, PROGRAMACIÓN, SISTEMAS, ENTORNO, LENGUAJE, DIGITALIZACIÓN, SOSTENIBILIDAD e IPE, cada una con su color y el nombre de su módulo" />
+
+<details>
+<summary><b>📋 Ver como tabla</b></summary>
 
 <br>
 
@@ -117,11 +123,20 @@ Cada asignatura tiene su propio color, que se repite en el panel, en el horario 
 | 🌱 **SOSTENIBILIDAD** | Sostenibilidad aplicada al sistema productivo |
 | 🧭 **IPE** | Itinerario Personal para la Empleabilidad |
 
----
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🏠 DAW HOME: el panel de control
 
-La nota `DAW HOME` es la página de inicio de la bóveda. Es un script de **DataviewJS** que recorre todas las notas, lee sus etiquetas y fechas, y pinta un panel que se actualiza solo:
+> [!NOTE]
+> La nota `DAW HOME` es la página de inicio de la bóveda. Es un script de **DataviewJS** que recorre todas las notas, lee sus etiquetas y fechas, y pinta un panel que se actualiza solo:
+
+<img src="assets/daw-home.svg" width="100%" alt="Maqueta del panel DAW HOME con datos de ejemplo: accesos rápidos, contadores, clase actual y siguiente, próximas entregas, progreso por asignatura y horario semanal" />
+
+<div align="center"><sub>Maqueta del panel con datos de ejemplo</sub></div>
+
+<br>
 
 | Tarjeta | Qué muestra |
 |---|---|
@@ -134,7 +149,8 @@ La nota `DAW HOME` es la página de inicio de la bóveda. Es un script de **Data
 | 📊 **Progreso por asignatura** | Tareas marcadas frente a tareas con etiqueta o fecha, por módulo. |
 | 🗓 **Horario semanal** | La tabla de la nota `Horario`, coloreada por asignatura. |
 
-Todo lo configurable (ventana de días, colores, alias de asignaturas, tipos de tarea) está agrupado en un bloque `CFG` al principio del script, así que se ajusta sin tocar el resto del código.
+> [!TIP]
+> Todo lo configurable (ventana de días, colores, alias de asignaturas, tipos de tarea) está agrupado en un bloque `CFG` al principio del script, así que se ajusta sin tocar el resto del código.
 
 ```mermaid
 flowchart LR
@@ -146,7 +162,7 @@ flowchart LR
     D --> AS[Home de cada asignatura]
 ```
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🔌 Complementos activos
 
@@ -201,7 +217,7 @@ Los nueve plugins que uso, agrupados por lo que hacen:
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## ⚙️ Cómo funciona por dentro
 
@@ -210,7 +226,8 @@ Los nueve plugins que uso, agrupados por lo que hacen:
 
 <br>
 
-Regla de la bóveda: **la etiqueta dice qué tipo de nota es**; a qué asignatura y tema pertenece lo dicen las **propiedades** y la carpeta.
+> [!IMPORTANT]
+> Regla de la bóveda: **la etiqueta dice qué tipo de nota es**; a qué asignatura y tema pertenece lo dicen las **propiedades** y la carpeta.
 
 | Etiqueta | Qué es | Dónde vive |
 |---|---|---|
@@ -240,7 +257,8 @@ Regla de la bóveda: **la etiqueta dice qué tipo de nota es**; a qué asignatur
 
 3. **Desde el calendario:** al pulsar un día se crea su nota con plantilla y lo que escribas dentro hereda esa fecha.
 
-La fecha se busca en este orden: el `📅` de la tarea → las propiedades `Fecha` / `Entrega` de la nota → la fecha del nombre de la nota.
+> [!NOTE]
+> La fecha se busca en este orden: el `📅` de la tarea → las propiedades `Fecha` / `Entrega` de la nota → la fecha del nombre de la nota.
 
 </details>
 
@@ -272,9 +290,11 @@ Sobre el tema oscuro nativo, la bóveda activa sus propios fragmentos CSS (inclu
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🚀 Cómo usar esta bóveda
+
+<img src="assets/pasos.svg" width="100%" alt="Instalación en cuatro pasos: descarga el zip, abre la carpeta Insti como bóveda, confía y activa los complementos, abre DAW HOME" />
 
 ### Opción A · Plug and play con el `.zip` (recomendada)
 
@@ -296,7 +316,7 @@ Sobre el tema oscuro nativo, la bóveda activa sus propios fragmentos CSS (inclu
 > [!TIP]
 > Si usas otro tema, cambia al **tema oscuro nativo** para ver las notas tal y como yo las veo.
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 💻 Stack del curso
 
@@ -319,7 +339,7 @@ Sobre el tema oscuro nativo, la bóveda activa sus propios fragmentos CSS (inclu
 | 🗃 **MySQL** | Diseño de bases de datos y consultas SQL |
 | 📝 **Markdown** | Documentación de todo lo anterior |
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
   <sub>💜 Hecho con Obsidian · Todo lo que aprendo, conectado</sub>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Instalación en cuatro pasos: descarga el zip, abre la carpeta Insti como bóveda, confía y activa los complementos, abre DAW HOME">
+  <rect x="1" y="1" width="998" height="148" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <g>
+    <rect x="20" y="20" width="215" height="110" rx="14" fill="#161b22" stroke="#7A36CB" stroke-opacity=".55"/>
+    <circle cx="58" cy="58" r="20" fill="#7A36CB" fill-opacity=".25" stroke="#A882FF"/>
+    <text x="58" y="65" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#e2d9ff">1</text>
+    <text x="90" y="64" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3">Descarga</text>
+    <text x="40" y="108" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#A882FF">Insti-backup.zip</text>
+  </g><path d="M241 75 H259" stroke="#A882FF" stroke-width="2" stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" values="16;0" dur="1s" repeatCount="indefinite"/></path><path d="M255 70 l5 5 l-5 5" stroke="#A882FF" stroke-width="2" fill="none"/>
+  <g>
+    <rect x="265" y="20" width="215" height="110" rx="14" fill="#161b22" stroke="#7A36CB" stroke-opacity=".55"/>
+    <circle cx="303" cy="58" r="20" fill="#7A36CB" fill-opacity=".25" stroke="#A882FF"/>
+    <text x="303" y="65" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#e2d9ff">2</text>
+    <text x="335" y="64" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3">Abre como bóveda</text>
+    <text x="285" y="108" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#A882FF">la carpeta Insti</text>
+  </g><path d="M486 75 H504" stroke="#A882FF" stroke-width="2" stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" values="16;0" dur="1s" repeatCount="indefinite"/></path><path d="M500 70 l5 5 l-5 5" stroke="#A882FF" stroke-width="2" fill="none"/>
+  <g>
+    <rect x="510" y="20" width="215" height="110" rx="14" fill="#161b22" stroke="#7A36CB" stroke-opacity=".55"/>
+    <circle cx="548" cy="58" r="20" fill="#7A36CB" fill-opacity=".25" stroke="#A882FF"/>
+    <text x="548" y="65" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#e2d9ff">3</text>
+    <text x="580" y="64" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3">Confía y activa</text>
+    <text x="530" y="108" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#A882FF">los complementos</text>
+  </g><path d="M731 75 H749" stroke="#A882FF" stroke-width="2" stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" values="16;0" dur="1s" repeatCount="indefinite"/></path><path d="M745 70 l5 5 l-5 5" stroke="#A882FF" stroke-width="2" fill="none"/>
+  <g>
+    <rect x="755" y="20" width="215" height="110" rx="14" fill="#161b22" stroke="#7A36CB" stroke-opacity=".55"/>
+    <circle cx="793" cy="58" r="20" fill="#7A36CB" fill-opacity=".25" stroke="#A882FF"/>
+    <text x="793" y="65" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#e2d9ff">4</text>
+    <text x="825" y="64" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e6edf3">Abre</text>
+    <text x="775" y="108" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#A882FF">DAW HOME</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 376" width="1000" height="376" role="img" aria-label="Asignaturas de 1º de DAW con su color">
+  <rect x="1" y="1" width="998" height="374" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <text x="20" y="40" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#A882FF">ASIGNATURAS/DAW1/</text>
+  <text x="980" y="40" text-anchor="end" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">8 módulos · un color cada uno</text>
+  <g>
+    <rect x="20" y="66" width="225" height="140" rx="14" fill="#161b22" stroke="#00e5ff" stroke-opacity=".45"/>
+    <rect x="20" y="66" width="225" height="6" rx="3" fill="#00e5ff"/>
+    <circle cx="221" cy="100" r="7" fill="#00e5ff"><animate attributeName="fill-opacity" values="1;.35;1" dur="2.0s" repeatCount="indefinite"/></circle>
+    <text x="40" y="110" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#00e5ff">BADAT</text>
+    <line x1="40" y1="126" x2="80" y2="126" stroke="#00e5ff" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="40" y="152" font-size="14" fill="#c9d1d9">Bases de Datos</text></g>
+  </g>
+  <g>
+    <rect x="265" y="66" width="225" height="140" rx="14" fill="#161b22" stroke="#7c4dff" stroke-opacity=".45"/>
+    <rect x="265" y="66" width="225" height="6" rx="3" fill="#7c4dff"/>
+    <circle cx="466" cy="100" r="7" fill="#7c4dff"><animate attributeName="fill-opacity" values="1;.35;1" dur="2.3s" repeatCount="indefinite"/></circle>
+    <text x="285" y="110" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#7c4dff">PROGRAMACIÓN</text>
+    <line x1="285" y1="126" x2="325" y2="126" stroke="#7c4dff" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="285" y="152" font-size="14" fill="#c9d1d9">Programación</text></g>
+  </g>
+  <g>
+    <rect x="510" y="66" width="225" height="140" rx="14" fill="#161b22" stroke="#f2994a" stroke-opacity=".45"/>
+    <rect x="510" y="66" width="225" height="6" rx="3" fill="#f2994a"/>
+    <circle cx="711" cy="100" r="7" fill="#f2994a"><animate attributeName="fill-opacity" values="1;.35;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text x="530" y="110" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#f2994a">SISTEMAS</text>
+    <line x1="530" y1="126" x2="570" y2="126" stroke="#f2994a" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="530" y="152" font-size="14" fill="#c9d1d9">Sistemas Informáticos</text></g>
+  </g>
+  <g>
+    <rect x="755" y="66" width="225" height="140" rx="14" fill="#161b22" stroke="#a3e635" stroke-opacity=".45"/>
+    <rect x="755" y="66" width="225" height="6" rx="3" fill="#a3e635"/>
+    <circle cx="956" cy="100" r="7" fill="#a3e635"><animate attributeName="fill-opacity" values="1;.35;1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <text x="775" y="110" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#a3e635">ENTORNO</text>
+    <line x1="775" y1="126" x2="815" y2="126" stroke="#a3e635" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="775" y="152" font-size="14" fill="#c9d1d9">Entornos de Desarrollo</text></g>
+  </g>
+  <g>
+    <rect x="20" y="226" width="225" height="140" rx="14" fill="#161b22" stroke="#ff6fb5" stroke-opacity=".45"/>
+    <rect x="20" y="226" width="225" height="6" rx="3" fill="#ff6fb5"/>
+    <circle cx="221" cy="260" r="7" fill="#ff6fb5"><animate attributeName="fill-opacity" values="1;.35;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <text x="40" y="270" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#ff6fb5">LENGUAJE</text>
+    <line x1="40" y1="286" x2="80" y2="286" stroke="#ff6fb5" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="40" y="312" font-size="14" fill="#c9d1d9">Lenguajes de Marcas y</text><text x="40" y="331" font-size="14" fill="#c9d1d9">Sistemas de Gestión de</text><text x="40" y="350" font-size="14" fill="#c9d1d9">Información</text></g>
+  </g>
+  <g>
+    <rect x="265" y="226" width="225" height="140" rx="14" fill="#161b22" stroke="#4f9dff" stroke-opacity=".45"/>
+    <rect x="265" y="226" width="225" height="6" rx="3" fill="#4f9dff"/>
+    <circle cx="466" cy="260" r="7" fill="#4f9dff"><animate attributeName="fill-opacity" values="1;.35;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <text x="285" y="270" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#4f9dff">DIGITALIZACIÓN</text>
+    <line x1="285" y1="286" x2="325" y2="286" stroke="#4f9dff" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="285" y="312" font-size="14" fill="#c9d1d9">Digitalización aplicada a</text><text x="285" y="331" font-size="14" fill="#c9d1d9">los sectores productivos</text></g>
+  </g>
+  <g>
+    <rect x="510" y="226" width="225" height="140" rx="14" fill="#161b22" stroke="#34d399" stroke-opacity=".45"/>
+    <rect x="510" y="226" width="225" height="6" rx="3" fill="#34d399"/>
+    <circle cx="711" cy="260" r="7" fill="#34d399"><animate attributeName="fill-opacity" values="1;.35;1" dur="3.8s" repeatCount="indefinite"/></circle>
+    <text x="530" y="270" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#34d399">SOSTENIBILIDAD</text>
+    <line x1="530" y1="286" x2="570" y2="286" stroke="#34d399" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="530" y="312" font-size="14" fill="#c9d1d9">Sostenibilidad aplicada al</text><text x="530" y="331" font-size="14" fill="#c9d1d9">sistema productivo</text></g>
+  </g>
+  <g>
+    <rect x="755" y="226" width="225" height="140" rx="14" fill="#161b22" stroke="#fbbf24" stroke-opacity=".45"/>
+    <rect x="755" y="226" width="225" height="6" rx="3" fill="#fbbf24"/>
+    <circle cx="956" cy="260" r="7" fill="#fbbf24"><animate attributeName="fill-opacity" values="1;.35;1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <text x="775" y="270" font-family="'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#fbbf24">IPE</text>
+    <line x1="775" y1="286" x2="815" y2="286" stroke="#fbbf24" stroke-opacity=".6" stroke-width="2"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><text x="775" y="312" font-size="14" fill="#c9d1d9">Itinerario Personal para la</text><text x="775" y="331" font-size="14" fill="#c9d1d9">Empleabilidad</text></g>
+  </g>
+</svg>
