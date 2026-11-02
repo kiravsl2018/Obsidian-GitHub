@@ -221,10 +221,7 @@ Los nueve plugins que uso, agrupados por lo que hacen:
 
 ## ⚙️ Cómo funciona por dentro
 
-<details open>
-<summary><b>🏷 Etiquetas y propiedades</b></summary>
-
-<br>
+### 🏷 Etiquetas y propiedades
 
 > [!IMPORTANT]
 > Regla de la bóveda: **la etiqueta dice qué tipo de nota es**; a qué asignatura y tema pertenece lo dicen las **propiedades** y la carpeta.
@@ -240,12 +237,7 @@ Los nueve plugins que uso, agrupados por lo que hacen:
 | `examen` | Examen | `Evaluación/` |
 | `Tasks`, `Calendario` | Notas de día creadas desde el calendario | `Tasks/` |
 
-</details>
-
-<details>
-<summary><b>➕ Tres formas de apuntar una entrega para que salga en el panel</b></summary>
-
-<br>
+### ➕ Tres formas de apuntar una entrega para que salga en el panel
 
 1. **Con los botones de la asignatura:** 📖 Nueva Teoría, 📝 Nueva Actividad, 💻 Crear Nueva Práctica y 🚨 Registrar Examen. Templater crea la nota en la carpeta correcta y detecta la asignatura sola.
 2. **Con una tarea suelta en cualquier nota:**
@@ -259,8 +251,6 @@ Los nueve plugins que uso, agrupados por lo que hacen:
 
 > [!NOTE]
 > La fecha se busca en este orden: el `📅` de la tarea → las propiedades `Fecha` / `Entrega` de la nota → la fecha del nombre de la nota.
-
-</details>
 
 <details>
 <summary><b>🧩 Plantillas incluidas</b></summary>
